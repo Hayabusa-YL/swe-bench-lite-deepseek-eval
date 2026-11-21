@@ -1,0 +1,301 @@
+instance,repo,version,result,category,patch_bytes,baseline_valid,detail
+astropy__astropy-12907,astropy/astropy,4.3,NO_PATCH,no_patch,0,True,empty patch
+astropy__astropy-14182,astropy/astropy,5.1,EVAL_ERROR,eval_error,845,True,no f2p log
+astropy__astropy-14365,astropy/astropy,5.1,RESOLVED,resolved,1246,True,
+astropy__astropy-14995,astropy/astropy,5.2,RESOLVED,resolved,641,True,
+astropy__astropy-6938,astropy/astropy,1.3,NO_PATCH,no_patch,0,True,empty patch
+astropy__astropy-7746,astropy/astropy,1.3,NO_PATCH,no_patch,0,True,empty patch
+django__django-10914,django/django,3.0,RESOLVED,resolved,2531,True,
+django__django-10924,django/django,3.0,NO_PATCH,no_patch,0,False,empty patch
+django__django-11001,django/django,3.0,RESOLVED,resolved,532,True,
+django__django-11019,django/django,3.0,NOT_RESOLVED,p2p_regression,5006,True,"django summary not OK; P2P regressions: ['test_all_inline_media (admin_inlines.tests.TestInlineMedia)', 'test_can_delete (admin_inlines.tests.TestInline)', 'test_custom_form_tabular_inline_label (admi"
+django__django-11039,django/django,3.0,RESOLVED,resolved,652,True,
+django__django-11049,django/django,3.0,RESOLVED,resolved,560,True,
+django__django-11099,django/django,3.0,RESOLVED,resolved,895,True,
+django__django-11133,django/django,3.0,RESOLVED,resolved,606,True,
+django__django-11179,django/django,3.0,RESOLVED,resolved,608,True,
+django__django-11283,django/django,3.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-11422,django/django,3.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-11564,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-11583,django/django,3.0,RESOLVED,resolved,1591,True,
+django__django-11620,django/django,3.0,RESOLVED,resolved,949,True,
+django__django-11630,django/django,3.0,NOT_RESOLVED,test_failed,2499,True,django summary not OK
+django__django-11742,django/django,3.0,RESOLVED,resolved,2073,True,
+django__django-11797,django/django,3.1,RESOLVED,resolved,986,True,
+django__django-11815,django/django,3.1,RESOLVED,resolved,755,True,
+django__django-11848,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-11905,django/django,3.1,NOT_RESOLVED,not_run,1158,True,no test status lines
+django__django-11910,django/django,3.1,NO_PATCH,no_patch,0,False,empty patch
+django__django-11964,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-11999,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-12113,django/django,3.1,RESOLVED,resolved,519,True,
+django__django-12125,django/django,3.1,NO_PATCH,no_patch,0,False,empty patch
+django__django-12184,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-12284,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-12286,django/django,3.1,NO_PATCH,no_patch,0,False,empty patch
+django__django-12308,django/django,3.1,RESOLVED,resolved,898,True,
+django__django-12453,django/django,3.1,NOT_RESOLVED,test_failed,1645,True,django summary not OK
+django__django-12470,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-12497,django/django,3.1,RESOLVED,resolved,1387,True,
+django__django-12589,django/django,3.1,RESOLVED,resolved,1730,True,
+django__django-12700,django/django,3.1,RESOLVED,resolved,1031,True,
+django__django-12708,django/django,3.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-12747,django/django,3.1,NOT_RESOLVED,test_failed,628,True,django summary not OK
+django__django-12856,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-12908,django/django,3.2,RESOLVED,resolved,508,True,
+django__django-12915,django/django,3.2,RESOLVED,resolved,929,True,
+django__django-12983,django/django,3.2,RESOLVED,resolved,1229,True,
+django__django-13028,django/django,3.2,RESOLVED,resolved,699,True,
+django__django-13033,django/django,3.2,RESOLVED,resolved,879,True,
+django__django-13158,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13220,django/django,3.2,NOT_RESOLVED,test_failed,544,True,django summary not OK
+django__django-13230,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13265,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13315,django/django,3.2,NOT_RESOLVED,test_failed,839,True,django summary not OK
+django__django-13321,django/django,3.2,NOT_RESOLVED,test_failed,714,True,django summary not OK
+django__django-13401,django/django,3.2,NOT_RESOLVED,test_failed,1202,True,django summary not OK
+django__django-13447,django/django,4.0,RESOLVED,resolved,2866,True,
+django__django-13448,django/django,3.2,NOT_RESOLVED,test_failed,1493,True,django summary not OK
+django__django-13551,django/django,3.2,RESOLVED,resolved,1325,False,
+django__django-13590,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13658,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13660,django/django,3.2,NOT_RESOLVED,p2p_regression,1443,True,"P2P regressions: ['test_command_option_globals (shell.tests.ShellCommandTestCase)', 'test_stdin_read_globals (shell.tests.ShellCommandTestCase)']"
+django__django-13710,django/django,4.0,RESOLVED,resolved,762,True,
+django__django-13757,django/django,3.2,NOT_RESOLVED,test_failed,1063,True,django summary not OK
+django__django-13768,django/django,3.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-13925,django/django,4.0,NO_PATCH,no_patch,0,False,empty patch
+django__django-13933,django/django,4.0,RESOLVED,resolved,2010,True,
+django__django-13964,django/django,4.0,RESOLVED,resolved,700,True,
+django__django-14016,django/django,4.0,RESOLVED,resolved,1032,True,
+django__django-14017,django/django,4.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-14155,django/django,4.0,NOT_RESOLVED,test_failed,1501,True,django summary not OK
+django__django-14238,django/django,4.0,RESOLVED,resolved,730,True,
+django__django-14382,django/django,4.0,RESOLVED,resolved,702,True,
+django__django-14411,django/django,4.0,NOT_RESOLVED,test_failed,450,True,django summary not OK
+django__django-14534,django/django,4.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-14580,django/django,4.0,RESOLVED,resolved,593,True,
+django__django-14608,django/django,4.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-14667,django/django,4.0,RESOLVED,resolved,863,True,
+django__django-14672,django/django,4.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-14730,django/django,4.0,NOT_RESOLVED,test_failed,1397,True,django summary not OK
+django__django-14752,django/django,4.0,RESOLVED,resolved,1141,True,
+django__django-14787,django/django,4.1,NOT_RESOLVED,test_failed,612,True,django summary not OK
+django__django-14855,django/django,4.0,RESOLVED,resolved,692,True,
+django__django-14915,django/django,4.1,RESOLVED,resolved,396,True,
+django__django-14997,django/django,4.1,RESOLVED,resolved,607,True,
+django__django-14999,django/django,4.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-15061,django/django,4.1,RESOLVED,resolved,416,True,
+django__django-15202,django/django,4.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-15213,django/django,4.1,NOT_RESOLVED,test_failed,572,True,django summary not OK
+django__django-15252,django/django,4.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-15320,django/django,4.1,RESOLVED,resolved,615,True,
+django__django-15347,django/django,4.1,NOT_RESOLVED,test_failed,705,True,django summary not OK
+django__django-15388,django/django,4.1,RESOLVED,resolved,550,True,
+django__django-15400,django/django,4.1,RESOLVED,resolved,597,True,
+django__django-15498,django/django,4.1,RESOLVED,resolved,486,True,
+django__django-15695,django/django,4.1,NO_PATCH,no_patch,0,True,empty patch
+django__django-15738,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-15781,django/django,4.2,NOT_RESOLVED,test_failed,808,True,django summary not OK
+django__django-15789,django/django,4.2,RESOLVED,resolved,1889,True,
+django__django-15790,django/django,4.2,RESOLVED,resolved,495,True,
+django__django-15814,django/django,4.2,RESOLVED,resolved,621,True,
+django__django-15819,django/django,4.2,RESOLVED,resolved,2135,True,
+django__django-15851,django/django,4.2,RESOLVED,resolved,524,True,
+django__django-15902,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-15996,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-16041,django/django,4.2,RESOLVED,resolved,898,True,
+django__django-16046,django/django,4.2,RESOLVED,resolved,448,True,
+django__django-16139,django/django,4.2,RESOLVED,resolved,729,True,
+django__django-16229,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-16255,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-16379,django/django,4.2,RESOLVED,resolved,623,True,
+django__django-16400,django/django,4.2,NO_PATCH,no_patch,0,True,empty patch
+django__django-16408,django/django,5.0,NOT_RESOLVED,test_failed,1148,True,django summary not OK
+django__django-16527,django/django,5.0,NOT_RESOLVED,test_failed,543,True,django summary not OK
+django__django-16595,django/django,5.0,NOT_RESOLVED,test_failed,778,True,django summary not OK
+django__django-16816,django/django,5.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-16820,django/django,5.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-16873,django/django,5.0,NOT_RESOLVED,test_failed,586,True,django summary not OK
+django__django-16910,django/django,5.0,NO_PATCH,no_patch,0,True,empty patch
+django__django-17051,django/django,5.0,NOT_RESOLVED,test_failed,1885,True,django summary not OK
+django__django-17087,django/django,5.0,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-18869,matplotlib/matplotlib,3.3,NOT_RESOLVED,test_failed,744,True,F2P: test_parse_to_version_info[3.5.0-version_tuple0]=FAILED; test_parse_to_version_info[3.5.0rc2-version_tuple1]=FAILED; test_parse_to_version_info[3.5.0.dev820+g6768ef8c4c-version_tuple2]=FAILED; no
+matplotlib__matplotlib-22711,matplotlib/matplotlib,3.5,NOT_RESOLVED,not_run,1750,True,no test status lines
+matplotlib__matplotlib-22835,matplotlib/matplotlib,3.5,NOT_RESOLVED,not_run,1472,True,F2P: test_format_cursor_data_BoundaryNorm=FAILED; no PASSED
+matplotlib__matplotlib-23299,matplotlib/matplotlib,3.5,NOT_RESOLVED,not_run,1180,True,F2P: test_no_backend_reset_rccontext=FAILED; no PASSED
+matplotlib__matplotlib-23314,matplotlib/matplotlib,3.5,RESOLVED,resolved,549,True,
+matplotlib__matplotlib-23476,matplotlib/matplotlib,3.5,RESOLVED,resolved,746,True,
+matplotlib__matplotlib-23562,matplotlib/matplotlib,3.5,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-23563,matplotlib/matplotlib,3.5,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-23913,matplotlib/matplotlib,3.6,RESOLVED,resolved,5835,True,
+matplotlib__matplotlib-23964,matplotlib/matplotlib,3.6,RESOLVED,resolved,527,True,
+matplotlib__matplotlib-23987,matplotlib/matplotlib,3.6,NOT_RESOLVED,p2p_regression,961,True,P2P regressions: ['lib/matplotlib/tests/test_constrainedlayout.py::test_set_constrained_layout[arg2-True]']
+matplotlib__matplotlib-24149,matplotlib/matplotlib,3.6,RESOLVED,resolved,984,True,
+matplotlib__matplotlib-24265,matplotlib/matplotlib,3.6,NOT_RESOLVED,not_run,1205,True,no test status lines
+matplotlib__matplotlib-24334,matplotlib/matplotlib,3.6,RESOLVED,resolved,865,True,
+matplotlib__matplotlib-24970,matplotlib/matplotlib,3.6,RESOLVED,resolved,1104,True,
+matplotlib__matplotlib-25079,matplotlib/matplotlib,3.6,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-25311,matplotlib/matplotlib,3.7,NOT_RESOLVED,not_run,1160,True,no test status lines
+matplotlib__matplotlib-25332,matplotlib/matplotlib,3.7,RESOLVED,resolved,1403,True,
+matplotlib__matplotlib-25433,matplotlib/matplotlib,3.7,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-25442,matplotlib/matplotlib,3.7,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-25498,matplotlib/matplotlib,3.7,NO_PATCH,no_patch,0,True,empty patch
+matplotlib__matplotlib-26011,matplotlib/matplotlib,3.7,RESOLVED,resolved,1981,True,
+matplotlib__matplotlib-26020,matplotlib/matplotlib,3.7,RESOLVED,resolved,1202,True,
+mwaskom__seaborn-2848,mwaskom/seaborn,0.12,NO_PATCH,no_patch,0,True,empty patch
+mwaskom__seaborn-3010,mwaskom/seaborn,0.12,NOT_RESOLVED,not_run,506,True,no test status lines
+mwaskom__seaborn-3190,mwaskom/seaborn,0.12,NOT_RESOLVED,p2p_regression,3558,True,"P2P regressions: ['tests/_core/test_scales.py::TestContinuous::test_coordinate_transform', 'tests/_core/test_scales.py::TestContinuous::test_coordinate_transform_with_parameter']"
+mwaskom__seaborn-3407,mwaskom/seaborn,0.13,NO_PATCH,no_patch,0,True,empty patch
+pallets__flask-4045,pallets/flask,2.0,NOT_RESOLVED,not_run,1433,True,F2P: test_dotted_name_not_allowed=MISSING; test_route_decorator_custom_endpoint_with_dots=ERROR; no PASSED
+pallets__flask-4992,pallets/flask,2.3,RESOLVED,resolved,2764,True,
+pallets__flask-5063,pallets/flask,2.3,RESOLVED,resolved,2270,True,
+psf__requests-1963,psf/requests,2.3,NOT_RESOLVED,p2p_regression,361,True,P2P regressions: ['test_requests.py::RequestsTestCase::test_request_and_response_are_pickleable']
+psf__requests-2148,psf/requests,2.3,NO_PATCH,no_patch,0,True,empty patch
+psf__requests-2317,psf/requests,2.4,RESOLVED,resolved,831,True,
+psf__requests-2674,psf/requests,2.7,NOT_RESOLVED,test_failed,1053,False,F2P: test_HTTP_200_OK_HEAD=MISSING; test_different_encodings_dont_break_post=FAILED; test_prepared_from_session=MISSING; P2P regressions: ['test_requests.py::RequestsTestCase::test_DIGESTAUTH_WRONG_HT
+psf__requests-3362,psf/requests,2.10,RESOLVED,resolved,625,True,
+psf__requests-863,psf/requests,0.14,NOT_RESOLVED,p2p_regression,586,False,"P2P regressions: ['tests/test_requests.py::RequestsTestSuite::test_BASICAUTH_HTTP_200_OK_GET', 'tests/test_requests.py::RequestsTestSuite::test_HTTP_200_OK_GET_WITH_MIXED_PARAMS', 'tests/test_requests"
+pydata__xarray-3364,pydata/xarray,0.12,NOT_RESOLVED,not_run,3596,True,F2P: test_auto_combine_with_new_variables=FAILED; test_concat_merge_variables_present_in_some_datasets=FAILED; no PASSED; P2P regressions: ['xarray/tests/test_combine.py::TestAutoCombineOldAPI::test_a
+pydata__xarray-4094,pydata/xarray,0.12,NO_PATCH,no_patch,0,True,empty patch
+pydata__xarray-4248,pydata/xarray,0.12,NOT_RESOLVED,not_run,1730,True,F2P: test_inline_variable_array_repr_custom_repr=FAILED; no PASSED
+pydata__xarray-4493,pydata/xarray,0.12,NO_PATCH,no_patch,0,True,empty patch
+pydata__xarray-5131,pydata/xarray,0.12,RESOLVED,resolved,569,True,
+pylint-dev__pylint-5859,pylint-dev/pylint,2.13,NO_PATCH,no_patch,0,True,empty patch
+pylint-dev__pylint-6506,pylint-dev/pylint,2.14,NOT_RESOLVED,not_run,1291,True,no test status lines
+pylint-dev__pylint-7080,pylint-dev/pylint,2.15,NOT_RESOLVED,not_run,483,True,F2P: test_ignore_path_recursive_current_dir=MISSING; no PASSED
+pylint-dev__pylint-7114,pylint-dev/pylint,2.15,NO_PATCH,no_patch,0,True,empty patch
+pylint-dev__pylint-7228,pylint-dev/pylint,2.15,NOT_RESOLVED,not_run,1787,True,no test status lines
+pylint-dev__pylint-7993,pylint-dev/pylint,2.15,NO_PATCH,no_patch,0,True,empty patch
+pytest-dev__pytest-11143,pytest-dev/pytest,8.0,RESOLVED,resolved,553,True,
+pytest-dev__pytest-11148,pytest-dev/pytest,8.0,NOT_RESOLVED,not_run,469,True,F2P: test_remembers_previous_imports=FAILED; test_doctest_and_normal_imports_with_importlib=FAILED; no PASSED; P2P regressions: ['testing/acceptance_test.py::TestGeneralUsage::test_issue109_sibling_co
+pytest-dev__pytest-5103,pytest-dev/pytest,4.5,NOT_RESOLVED,not_run,5153,True,F2P: test_unroll_expression=FAILED; no PASSED
+pytest-dev__pytest-5221,pytest-dev/pytest,4.4,NO_PATCH,no_patch,0,True,empty patch
+pytest-dev__pytest-5227,pytest-dev/pytest,4.4,RESOLVED,resolved,1090,True,
+pytest-dev__pytest-5413,pytest-dev/pytest,4.6,RESOLVED,resolved,607,True,
+pytest-dev__pytest-5495,pytest-dev/pytest,4.6,NOT_RESOLVED,not_run,515,True,F2P: test_bytes_diff_normal=FAILED; test_bytes_diff_verbose=FAILED; no PASSED
+pytest-dev__pytest-5692,pytest-dev/pytest,5.0,RESOLVED,resolved,761,True,
+pytest-dev__pytest-6116,pytest-dev/pytest,5.2,RESOLVED,resolved,374,True,
+pytest-dev__pytest-7168,pytest-dev/pytest,5.4,NOT_RESOLVED,p2p_regression,542,True,"P2P regressions: ['testing/python/metafunc.py', 'testing/test_junitxml.py']"
+pytest-dev__pytest-7220,pytest-dev/pytest,5.4,NO_PATCH,no_patch,0,True,empty patch
+pytest-dev__pytest-7373,pytest-dev/pytest,5.4,RESOLVED,resolved,1559,True,
+pytest-dev__pytest-7432,pytest-dev/pytest,5.4,RESOLVED,resolved,1822,True,
+pytest-dev__pytest-7490,pytest-dev/pytest,6.0,RESOLVED,resolved,900,True,
+pytest-dev__pytest-8365,pytest-dev/pytest,6.3,NOT_RESOLVED,not_run,736,True,no test status lines
+pytest-dev__pytest-8906,pytest-dev/pytest,7.0,RESOLVED,resolved,1017,True,
+pytest-dev__pytest-9359,pytest-dev/pytest,7.0,RESOLVED,resolved,942,True,
+scikit-learn__scikit-learn-10297,scikit-learn/scikit-learn,0.20,RESOLVED,resolved,1547,True,
+scikit-learn__scikit-learn-10508,scikit-learn/scikit-learn,0.20,NOT_RESOLVED,not_run,575,True,F2P: test_label_encoder_errors=FAILED; test_label_encoder_empty_array=FAILED; no PASSED
+scikit-learn__scikit-learn-10949,scikit-learn/scikit-learn,0.20,NOT_RESOLVED,not_run,1086,False,no test status lines
+scikit-learn__scikit-learn-11040,scikit-learn/scikit-learn,0.20,RESOLVED,resolved,2630,True,
+scikit-learn__scikit-learn-11281,scikit-learn/scikit-learn,0.20,RESOLVED,resolved,3404,True,
+scikit-learn__scikit-learn-12471,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,1637,True,no test status lines
+scikit-learn__scikit-learn-13142,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,1251,True,no test status lines
+scikit-learn__scikit-learn-13241,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,1296,True,no test status lines
+scikit-learn__scikit-learn-13439,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,461,True,no test status lines
+scikit-learn__scikit-learn-13496,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,2176,True,no test status lines
+scikit-learn__scikit-learn-13497,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,1277,True,no test status lines
+scikit-learn__scikit-learn-13584,scikit-learn/scikit-learn,0.21,NOT_RESOLVED,not_run,597,True,no test status lines
+scikit-learn__scikit-learn-13779,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,607,True,
+scikit-learn__scikit-learn-14087,scikit-learn/scikit-learn,0.22,NOT_RESOLVED,not_run,730,True,F2P: test_LogisticRegressionCV_no_refit[ovr-l2]=FAILED; test_LogisticRegressionCV_no_refit[multinomial-l2]=FAILED; test_LogisticRegressionCV_no_refit[auto-l2]=FAILED; no PASSED
+scikit-learn__scikit-learn-14092,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,1475,True,
+scikit-learn__scikit-learn-14894,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,1068,True,
+scikit-learn__scikit-learn-14983,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,763,True,
+scikit-learn__scikit-learn-15512,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,1217,True,
+scikit-learn__scikit-learn-15535,scikit-learn/scikit-learn,0.22,RESOLVED,resolved,688,True,
+scikit-learn__scikit-learn-25500,scikit-learn/scikit-learn,1.3,NOT_RESOLVED,not_run,1881,False,no test status lines
+scikit-learn__scikit-learn-25570,scikit-learn/scikit-learn,1.3,NOT_RESOLVED,not_run,2149,False,no test status lines
+scikit-learn__scikit-learn-25638,scikit-learn/scikit-learn,1.3,NOT_RESOLVED,not_run,3186,False,no test status lines
+scikit-learn__scikit-learn-25747,scikit-learn/scikit-learn,1.3,NO_PATCH,no_patch,0,False,empty patch
+sphinx-doc__sphinx-10325,sphinx-doc/sphinx,5.0,NOT_RESOLVED,not_run,720,True,F2P: test_automodule_inherited_members=FAILED; no PASSED
+sphinx-doc__sphinx-10451,sphinx-doc/sphinx,5.1,NOT_RESOLVED,not_run,4101,True,F2P: test_napoleon_and_autodoc_typehints_description_all=FAILED; test_napoleon_and_autodoc_typehints_description_documented_params=FAILED; no PASSED
+sphinx-doc__sphinx-11445,sphinx-doc/sphinx,7.1,RESOLVED,resolved,405,True,
+sphinx-doc__sphinx-7686,sphinx-doc/sphinx,3.1,NOT_RESOLVED,not_run,868,True,F2P: test_autosummary_generate_content_for_module=ERROR; test_autosummary_generate_content_for_module_skipped=ERROR; no PASSED
+sphinx-doc__sphinx-7738,sphinx-doc/sphinx,3.1,NO_PATCH,no_patch,0,True,empty patch
+sphinx-doc__sphinx-7975,sphinx-doc/sphinx,3.2,NO_PATCH,no_patch,0,True,empty patch
+sphinx-doc__sphinx-8273,sphinx-doc/sphinx,3.3,NOT_RESOLVED,not_run,2650,True,no test status lines
+sphinx-doc__sphinx-8282,sphinx-doc/sphinx,3.3,NOT_RESOLVED,not_run,1995,True,F2P: test_autodoc_typehints_none_for_overload=ERROR; no PASSED
+sphinx-doc__sphinx-8435,sphinx-doc/sphinx,3.4,NOT_RESOLVED,not_run,6916,True,no test status lines
+sphinx-doc__sphinx-8474,sphinx-doc/sphinx,3.4,NOT_RESOLVED,not_run,1390,True,F2P: test_numfig_without_numbered_toctree_warn=MISSING; test_numfig_with_numbered_toctree_warn=MISSING; test_numfig_with_prefix_warn=MISSING; no PASSED
+sphinx-doc__sphinx-8506,sphinx-doc/sphinx,3.4,NOT_RESOLVED,not_run,428,True,F2P: test_cmd_option_starting_with_bracket=MISSING; no PASSED
+sphinx-doc__sphinx-8595,sphinx-doc/sphinx,3.5,NOT_RESOLVED,not_run,634,True,no test status lines
+sphinx-doc__sphinx-8627,sphinx-doc/sphinx,3.5,RESOLVED,resolved,1743,True,
+sphinx-doc__sphinx-8713,sphinx-doc/sphinx,4.0,NOT_RESOLVED,not_run,1500,True,no test status lines
+sphinx-doc__sphinx-8721,sphinx-doc/sphinx,3.5,NO_PATCH,no_patch,0,True,empty patch
+sphinx-doc__sphinx-8801,sphinx-doc/sphinx,3.5,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-11400,sympy/sympy,1.0,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-11870,sympy/sympy,1.1,NOT_RESOLVED,test_failed,775,True,F2P: test_sinc=MISSING; P2P regressions: ['sympy/functions/elementary/tests/test_trigonometric.py::test_sin_cos_with_infinity']
+sympy__sympy-11897,sympy/sympy,1.0,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-12171,sympy/sympy,1.0,NOT_RESOLVED,test_failed,749,True,F2P: test_Derivative=MISSING
+sympy__sympy-12236,sympy/sympy,1.0,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-12419,sympy/sympy,1.0,RESOLVED,resolved,528,True,
+sympy__sympy-12454,sympy/sympy,1.0,NOT_RESOLVED,test_failed,443,True,F2P: test_hessenberg=MISSING
+sympy__sympy-12481,sympy/sympy,1.0,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-13031,sympy/sympy,1.1,NOT_RESOLVED,test_failed,3543,True,F2P: test_sparse_matrix=MISSING
+sympy__sympy-13043,sympy/sympy,1.1,NOT_RESOLVED,test_failed,1436,True,F2P: test_decompose=MISSING; P2P regressions: ['sympy/integrals/tests/test_intpoly.py::test_polytopes_intersecting_sides']
+sympy__sympy-13146,sympy/sympy,1.1,NOT_RESOLVED,test_failed,401,True,F2P: test_evalf_bugs=MISSING
+sympy__sympy-13177,sympy/sympy,1.1,NOT_RESOLVED,test_failed,581,True,F2P: test_mod=MISSING
+sympy__sympy-13437,sympy/sympy,1.1,NOT_RESOLVED,test_failed,543,True,"F2P: test_bell=MISSING; P2P regressions: ['sympy/functions/combinatorial/tests/test_comb_numbers.py::test_euler_failing', 'sympy/functions/combinatorial/tests/test_comb_numbers.py::test_harmonic_limit"
+sympy__sympy-13471,sympy/sympy,1.1,RESOLVED,resolved,1545,True,
+sympy__sympy-13480,sympy/sympy,1.1,RESOLVED,resolved,586,True,
+sympy__sympy-13647,sympy/sympy,1.1,RESOLVED,resolved,525,True,
+sympy__sympy-13773,sympy/sympy,1.1,NOT_RESOLVED,test_failed,3050,True,F2P: test_matmul=MISSING
+sympy__sympy-13895,sympy/sympy,1.1,NOT_RESOLVED,test_failed,1000,True,F2P: test_powers_Integer=MISSING
+sympy__sympy-13915,sympy/sympy,1.1,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-13971,sympy/sympy,1.1,NOT_RESOLVED,p2p_regression,515,True,P2P regressions: ['sympy/printing/tests/test_latex.py::test_builtin_without_args_mismatched_names']
+sympy__sympy-14024,sympy/sympy,1.1,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-14308,sympy/sympy,1.1,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-14317,sympy/sympy,1.1,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-14396,sympy/sympy,1.1,RESOLVED,resolved,1843,True,
+sympy__sympy-14774,sympy/sympy,1.1,NOT_RESOLVED,p2p_regression,582,True,P2P regressions: ['sympy/printing/tests/test_latex.py::test_builtin_without_args_mismatched_names']
+sympy__sympy-14817,sympy/sympy,1.1,NOT_RESOLVED,test_failed,928,True,"F2P: test_MatrixSymbol_printing=FAILED; P2P regressions: ['sympy/printing/pretty/tests/test_pretty.py::test_MatrixSymbol_printing', 'sympy/printing/pretty/tests/test_pretty.py::test_missing_in_2X_issu"
+sympy__sympy-15011,sympy/sympy,1.2,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-15308,sympy/sympy,1.4,NOT_RESOLVED,test_failed,509,True,F2P: test_trace=MISSING; P2P regressions: ['sympy/printing/tests/test_latex.py::test_builtin_without_args_mismatched_names']
+sympy__sympy-15345,sympy/sympy,1.4,RESOLVED,resolved,1504,True,
+sympy__sympy-15346,sympy/sympy,1.4,RESOLVED,resolved,605,True,
+sympy__sympy-15609,sympy/sympy,1.4,NOT_RESOLVED,p2p_regression,526,True,P2P regressions: ['sympy/printing/tests/test_latex.py::test_builtin_without_args_mismatched_names']
+sympy__sympy-15678,sympy/sympy,1.4,NOT_RESOLVED,test_failed,404,True,F2P: test_idiff=MISSING
+sympy__sympy-16106,sympy/sympy,1.4,NOT_RESOLVED,test_failed,1803,True,F2P: test_print_IndexedBase=MISSING
+sympy__sympy-16281,sympy/sympy,1.4,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-16503,sympy/sympy,1.5,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-16792,sympy/sympy,1.5,NOT_RESOLVED,test_failed,3344,True,F2P: test_ccode_unused_array_arg=MISSING
+sympy__sympy-16988,sympy/sympy,1.5,NOT_RESOLVED,test_failed,1761,True,F2P: test_imageset=MISSING
+sympy__sympy-17022,sympy/sympy,1.5,RESOLVED,resolved,694,True,
+sympy__sympy-17139,sympy/sympy,1.5,NOT_RESOLVED,p2p_regression,620,True,P2P regressions: ['sympy/simplify/tests/test_simplify.py::test_simplify_float_vs_integer']
+sympy__sympy-17630,sympy/sympy,1.5,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-17655,sympy/sympy,1.5,RESOLVED,resolved,1863,True,
+sympy__sympy-18057,sympy/sympy,1.6,RESOLVED,resolved,421,True,
+sympy__sympy-18087,sympy/sympy,1.6,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-18189,sympy/sympy,1.6,RESOLVED,resolved,651,True,
+sympy__sympy-18199,sympy/sympy,1.6,NOT_RESOLVED,test_failed,953,True,F2P: test_solve_modular=MISSING
+sympy__sympy-18532,sympy/sympy,1.6,RESOLVED,resolved,2370,True,
+sympy__sympy-18621,sympy/sympy,1.6,RESOLVED,resolved,588,True,
+sympy__sympy-18698,sympy/sympy,1.6,NOT_RESOLVED,test_failed,972,True,F2P: test_factor_terms=MISSING
+sympy__sympy-18835,sympy/sympy,1.6,NOT_RESOLVED,test_failed,1038,True,F2P: test_uniq=MISSING
+sympy__sympy-19007,sympy/sympy,1.6,RESOLVED,resolved,8732,True,
+sympy__sympy-19254,sympy/sympy,1.7,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-19487,sympy/sympy,1.7,RESOLVED,resolved,614,True,
+sympy__sympy-20049,sympy/sympy,1.7,NOT_RESOLVED,test_failed,1277,True,F2P: test_auto_point_vel=MISSING; test_auto_point_vel_shortest_path=FAILED; P2P regressions: ['sympy/physics/vector/tests/test_point.py::test_auto_point_vel_if_tree_has_vel_but_inappropriate_pos_vecto
+sympy__sympy-20154,sympy/sympy,1.7,RESOLVED,resolved,1631,True,
+sympy__sympy-20212,sympy/sympy,1.7,RESOLVED,resolved,512,True,
+sympy__sympy-20322,sympy/sympy,1.8,NOT_RESOLVED,test_failed,649,True,F2P: test_Mul_is_integer=MISSING
+sympy__sympy-20442,sympy/sympy,1.8,RESOLVED,resolved,1055,True,
+sympy__sympy-20590,sympy/sympy,1.7,RESOLVED,resolved,602,True,
+sympy__sympy-20639,sympy/sympy,1.8,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-21055,sympy/sympy,1.8,RESOLVED,resolved,1473,True,
+sympy__sympy-21171,sympy/sympy,1.8,NOT_RESOLVED,test_failed,739,True,F2P: test_latex_SingularityFunction=MISSING
+sympy__sympy-21379,sympy/sympy,1.9,RESOLVED,resolved,1019,True,
+sympy__sympy-21612,sympy/sympy,1.9,RESOLVED,resolved,571,True,
+sympy__sympy-21614,sympy/sympy,1.9,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-21627,sympy/sympy,1.9,RESOLVED,resolved,1099,True,
+sympy__sympy-21847,sympy/sympy,1.9,RESOLVED,resolved,1045,True,
+sympy__sympy-22005,sympy/sympy,1.9,NOT_RESOLVED,test_failed,483,True,F2P: test_solve_poly_system=MISSING
+sympy__sympy-22714,sympy/sympy,1.10,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-22840,sympy/sympy,1.10,NOT_RESOLVED,test_failed,1182,True,F2P: test_multidim_c_argument_cse=MISSING
+sympy__sympy-23117,sympy/sympy,1.11,RESOLVED,resolved,1071,True,
+sympy__sympy-23191,sympy/sympy,1.11,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-23262,sympy/sympy,1.11,NOT_RESOLVED,test_failed,896,True,F2P: test_issue_14941=MISSING
+sympy__sympy-24066,sympy/sympy,1.12,RESOLVED,resolved,778,True,
+sympy__sympy-24102,sympy/sympy,1.12,NO_PATCH,no_patch,0,True,empty patch
+sympy__sympy-24152,sympy/sympy,1.12,RESOLVED,resolved,925,True,
+sympy__sympy-24213,sympy/sympy,1.12,RESOLVED,resolved,685,True,
+sympy__sympy-24909,sympy/sympy,1.13,NO_PATCH,no_patch,0,True,empty patch

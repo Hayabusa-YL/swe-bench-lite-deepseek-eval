@@ -1,0 +1,92 @@
+{
+ "total": 300,
+ "resolved": 116,
+ "rate": 38.7,
+ "valid": 287,
+ "valid_resolved": 115,
+ "valid_rate": 40.1,
+ "with_patch": 216,
+ "with_patch_resolved": 116,
+ "cats": {
+  "no_patch": 84,
+  "eval_error": 1,
+  "resolved": 116,
+  "p2p_regression": 11,
+  "test_failed": 48,
+  "not_run": 40
+ },
+ "by_repo": {
+  "astropy/astropy": {
+   "valid": 6,
+   "resolved": 2,
+   "no_patch": 3,
+   "not_run": 0
+  },
+  "django/django": {
+   "valid": 108,
+   "resolved": 49,
+   "no_patch": 35,
+   "not_run": 1
+  },
+  "matplotlib/matplotlib": {
+   "valid": 23,
+   "resolved": 10,
+   "no_patch": 6,
+   "not_run": 5
+  },
+  "mwaskom/seaborn": {
+   "valid": 4,
+   "resolved": 0,
+   "no_patch": 2,
+   "not_run": 1
+  },
+  "pallets/flask": {
+   "valid": 3,
+   "resolved": 2,
+   "no_patch": 0,
+   "not_run": 1
+  },
+  "psf/requests": {
+   "valid": 4,
+   "resolved": 2,
+   "no_patch": 1,
+   "not_run": 0
+  },
+  "pydata/xarray": {
+   "valid": 5,
+   "resolved": 1,
+   "no_patch": 2,
+   "not_run": 2
+  },
+  "pylint-dev/pylint": {
+   "valid": 6,
+   "resolved": 0,
+   "no_patch": 3,
+   "not_run": 3
+  },
+  "pytest-dev/pytest": {
+   "valid": 17,
+   "resolved": 10,
+   "no_patch": 2,
+   "not_run": 4
+  },
+  "scikit-learn/scikit-learn": {
+   "valid": 18,
+   "resolved": 9,
+   "no_patch": 0,
+   "not_run": 9
+  },
+  "sphinx-doc/sphinx": {
+   "valid": 16,
+   "resolved": 2,
+   "no_patch": 4,
+   "not_run": 10
+  },
+  "sympy/sympy": {
+   "valid": 77,
+   "resolved": 28,
+   "no_patch": 20,
+   "not_run": 0
+  }
+ }
+}
