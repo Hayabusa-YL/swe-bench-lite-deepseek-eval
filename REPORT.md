@@ -49,11 +49,18 @@
 |---|---|---|
 | API 调用步数 | 第一轮 300 题（≤30 步/题）+ 第二轮 128 题（≤40 步/题）| 第二轮记录精确：4016 步、9342 秒（单实例平均 73 秒） |
 | 单步耗时 | 约 7–15 秒（含工具执行） | 取自 `agent-last-run.json` |
-| token 用量 | **未记录** | agent 脚本未累计 API 返回的 usage 字段，无法精确折算费用 |
+| 花费（13:33–18:20） | **¥22.65** | 平台侧计费口径，按小时分桶对齐评测时间窗 |
+| 请求数 | 18,852 次 | 同上 |
+| token 用量 | 输入 1.98 亿（缓存命中 95.9%），输出 267 万 | 同上 |
+| 全天花费（11-21） | ¥25.56 | 含同一 key 当天其他零星调用 |
 | 磁盘 | 约 10 GB | 300 个 repo-clean + repo-base 快照、300 个 venv、300 个 eval 副本 |
 | 其他 | 无 | 未使用付费算力/镜像/托管服务 |
 
-**需要如实说明**：成本里最关键的 token/API 费用当时没有埋点（已完成的那轮无法回溯准确 token 数）。现已给 `swe_agent.py` 补上统计：每次 API 调用累计 `usage.prompt_tokens / completion_tokens / prompt_cache_hit_tokens`，逐题写进 `meta.json`，整轮写进 `agent-last-run.json` 的 `total_usage`，并按可配置单价（环境变量 `DS_PRICE_IN_MISS / IN_HIT / OUT`，默认 deepseek-chat 公开价）输出 `est_cost_usd`；该逻辑已用构造数据静态验证通过，未再实跑实例。下一轮从 `agent-last-run.json` 的 `total_usage` / `total_est_cost_usd` 即可直接得到成本口径。
+**口径说明**：agent 脚本当时未累计 API 返回的 usage 字段，无法从本地回溯。事后补数方式：登录 DeepSeek 平台用量页，调用其 `usage/by_api_key/{amount,cost}` 接口，按小时分桶取 2026-11-21 全天数据，再把 13:33–18:20 这六个桶相加。
+
+由此得到三条限制，引用数字时需一并说明：① 这是**平台侧**计费数据，不是脚本自统计；② 同一 API key 在该时间窗内还有本机其他调用的零星消耗，占比很小但未剥离；③ 全天总额 25.56 元比对的是当天所有活动，评测是最大一块但不是全部。输入 token 中 95.9% 命中缓存，是总花费远低于"全按未命中计价"的主因。
+
+后续改进：`swe_agent.py` 已补上统计逻辑——每次 API 调用累计 `usage.prompt_tokens / completion_tokens / prompt_cache_hit_tokens`，逐题写进 `meta.json`，整轮写进 `agent-last-run.json` 的 `total_usage`，并按可配置单价（环境变量 `DS_PRICE_IN_MISS / IN_HIT / OUT`）输出估算费用；该逻辑已用构造数据静态验证，尚未在新一轮实跑。
 
 ---
 
